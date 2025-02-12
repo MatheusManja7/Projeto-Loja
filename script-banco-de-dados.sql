@@ -20,12 +20,4 @@ create table Produto(
     qtd_estoque int
 );
 
-create table Compras(
-	id_compra int auto_increment primary key,
-	id_usuario int,
-    id_produto int,
-    quantidade int,
-    data_compra datetime,
-    foreign key (id_usuario) references Usuario(id_usuario),
-    foreign key (id_produto) references Produto(id_produto)
-);
+select * from Produto;

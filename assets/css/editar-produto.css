@@ -14,7 +14,7 @@ body{
     justify-content: center;
 }
 
-.section-editar-prod-principal{
+.section-principal-ed-prod{
     width: 100%;
     height: 96vh;
     background-color: transparent;
@@ -23,7 +23,7 @@ body{
     justify-content: center;
 }
 
-.bolota1-editar-prod{
+.bolota1-ed-prod{
     width: 200px;
     height: 200px;
     background-color: white;
@@ -33,7 +33,7 @@ body{
     bottom: 80vh;
     right: 90vw;
 }
-.bolota2-editar-prod{
+.bolota2-ed-prod{
     width: 150px;
     height: 150px;
     background-color: white;
@@ -43,7 +43,7 @@ body{
     top: 50vh;
     left: 0;
 }
-.bolota3-editar-prod{
+.bolota3-ed-prod{
     width: 200px;
     height: 200px;
     background-color: white;
@@ -54,7 +54,7 @@ body{
     left: 160vh;
 }
 
-.bolota4-editar-prod{
+.bolota4-ed-prod{
     width: 140px;
     height: 140px;
     background-color: white;
@@ -64,7 +64,7 @@ body{
     top: 20vw;
     left: 185vh;
 }
-.bolota5-editar-prod{
+.bolota5-ed-prod{
     width: 100px;
     height: 100px;
     background-color: white;
@@ -76,7 +76,7 @@ body{
     transition: all .2s ease;
 }
 
-.box-principal-editar-prod{
+.box-principal-ed-prod{
     width: 70%;
     height: 85vh;
     background-color: rgba(255, 255, 255, 0);
@@ -88,7 +88,7 @@ body{
     z-index: 2;
 }
 
-.area-img-editar-prod{
+.area-img-ed-prod{
     width: 50%;
     height: 100%;
     background-color: white;
@@ -99,13 +99,13 @@ body{
     justify-content: center;
 }
 
-.div-editar-prod{
+.div-ed-prod{
     width: 100%;
     height: 100%;
     background-color: white;
 }
 
-.div-editar-prod .decoracao-editar-prod a{
+.div-ed-prod .decoracao-ed-prod a{
     color: white;
     position: relative;
     bottom: 28%;
@@ -113,7 +113,7 @@ body{
     font-size: 30px;
 }
 
-.div-editar-prod .decoracao-editar-prod{
+.div-ed-prod .decoracao-ed-prod{
     width: 100%;
     height: 100%;
     border-radius: 30% 0% 0% 30%;
@@ -138,7 +138,7 @@ body{
     }
   }
 
-.div-editar-prod .decoracao-editar-prod h1{
+.div-ed-prod .decoracao-ed-prod h1{
     color: white;
     font-size: 35px;
     position: relative;
@@ -146,7 +146,7 @@ body{
 
 }
 
-.div-editar-prod .decoracao-editar-prod h2{
+.div-ed-prod .decoracao-ed-prod h2{
     color: white;
     font-size: 15px;
     position: relative;
@@ -154,7 +154,7 @@ body{
 
 }
 
-.area-form-editar-prod{
+.area-form-ed-prod{
     width: 50%;
     height: 100%;
     background-color: white;
@@ -163,7 +163,7 @@ body{
     justify-content: space-between;
 }
 
-.area-form-editar-prod .div-title-editar-prod{
+.area-form-ed-prod .div-title-ed-prod{
     width: 100%;
     height: 20%;
     background-color: rgba(251, 0, 234, 0);
@@ -183,7 +183,7 @@ body{
     }
 }
 
-.area-form-editar-prod .div-title-editar-prod .title-editar-prod{
+.area-form-ed-prod .div-title-ed-prod .title-ed-prod{
     width: 100%;
     height: 50%;
     background-color: rgba(0, 0, 255, 0);
@@ -192,7 +192,7 @@ body{
     justify-content: center;
 }
 
-.area-form-editar-prod .div-title-editar-prod h1{
+.area-form-ed-prod .div-title-ed-prod h1{
     position: relative;
     top: 0%;
     margin-left: 8%;
@@ -200,7 +200,7 @@ body{
 
 
 
-.area-form-editar-prod .div-form-editar-prod{
+.area-form-ed-prod .div-form-ed-prod{
     width: 100%;
     height: 80%;
     background-color: rgba(0, 13, 255, 0);
@@ -209,7 +209,7 @@ body{
     justify-content: center;
 }
 
-.area-for-editar-prod .div-form-editar-prod form{
+.area-form-ed-prod .div-form-ed-prod form{
     width: 70%;
     height: 100%;
     flex-direction: column;
@@ -222,7 +222,7 @@ body{
     bottom: 8%;
 }
 
-.area-form-editar-prod.div-form-editar-prod form label{
+.area-form-ed-prod .div-form-ed-prod form label{
     margin-right: 20%;
     position: relative;
     top: 16px;
@@ -232,7 +232,7 @@ body{
     font-weight: 500;
 }
 
-.area-form-editar-prod .div-form-editar-prod form #categoria-editar-prod{
+.area-form-ed-prod .div-form-ed-prod form #categoria-ed-prod{
     width: 100%;
     height: 40px;
     border-radius: 6px;
@@ -240,7 +240,7 @@ body{
     border: 2px solid #c4e2f0;
 }
 
-.area-form-editar-prod.div-form-editar-prod form input{
+.area-form-ed-prod .div-form-ed-prod form input{
     width: 100%;
     height: 40px;
     padding: 15px;
@@ -249,7 +249,7 @@ body{
     border: 2px solid #c4e2f0;
 }
 
-.area-form-editar-prod .div-form-editar-prod form button{
+.area-form-ed-prod .div-form-ed-prod form button{
     width: 80%;
     height: 35px;
     border-radius: 6px;
@@ -264,7 +264,7 @@ body{
     top: 20px;
 }
 
-.area-form-editar-prod.div-form-editar-prod form button:hover{
+.area-form-ed-prod .div-form-ed-prod form button:hover{
     color: #4291be;
     border: 2px solid #4291be;
     border-radius: 20px;

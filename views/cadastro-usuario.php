@@ -7,12 +7,12 @@ if(isset($_POST['cadastrar'])){
     $email = $_POST['email'];
     $telefone = $_POST['telefone'];
 
-    $objColab = new Usuario();
-    $objColab->nome = $nome;
-    $objColab->email = $email;
-    $objColab->telefone = $telefone;
+    $objUsrs = new Usuario();
+    $objUsrs->nome = $nome;
+    $objUsrs->email = $email;
+    $objUsrs->telefone = $telefone;
 
-    $res = $objColab->cadastrar();
+    $res = $objUsrs->cadastrar();
 }
 
 ?>

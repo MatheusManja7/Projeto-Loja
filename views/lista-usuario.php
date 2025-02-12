@@ -78,16 +78,6 @@ $usuarios = $usrs->buscar();
                                         </a>
                                     </td>
                                 </tr>';
-
-                                $compras = $usrs->buscar_compras($usrs->id_usuario);
-            
-                                if (!empty($compras)) {
-                                    echo '<tr><td colspan="6"><strong>Compras:</strong><ul>';
-                                    foreach ($compras as $compra) {
-                                        echo '<li>' . $compra['produto_nome'] . ' - ' . $compra['quantidade'] . ' unidades (' . $compra['data_compra'] . ')</li>';
-                                    }
-                                    echo '</ul></td></tr>';
-                                }    
                             }
                         ?>        
                     </tbody>

@@ -78,7 +78,7 @@ $produto = $prod->buscar();
                                         </form>
                                     </td>
                                     <td>
-                                        <a href="editar_usuario.php?id=' . $prod->id_produto . '">
+                                        <a href="editar-produto.php?id=' . $prod->id_produto . '">
                                             <i class="bi bi-pencil-square text-primary"></i>
                                         </a>
                                     </td>

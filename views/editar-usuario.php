@@ -20,7 +20,7 @@ if (isset($_POST['atualizar'])) {
     $usuario->telefone = $_POST['telefone'];
 
     if ($usuario->atualizar()) {
-        echo "<script>alert('Usuário atualizado com sucesso!'); window.location.href='listar-usuarios.php';</script>";
+        echo "<script>alert('Usuário atualizado com sucesso!');</script>";
     } else {
         echo "<script>alert('Erro ao atualizar usuário!');</script>";
     }
@@ -49,7 +49,7 @@ if (isset($_POST['atualizar'])) {
             <div class="area-img-editar">
                 <div class="div-editar">
                     <div class="decoracao-editar">
-                        <a href="../views/home.html"><i class="bi bi-box-arrow-left"></i></a>
+                        <a href="../views/lista-usuario.php"><i class="bi bi-box-arrow-left"></i></a>
                         <h1>Editar Usuario</h1>
                     </div>
                 </div>
@@ -69,12 +69,11 @@ if (isset($_POST['atualizar'])) {
                         <label>Email</label>
                         <input type="text" name="email" value="<?= htmlspecialchars($usuario->email) ?>" required>
                         
-                        <label>Nome</label>
+                        <label>Telefone</label>
                         <input type="text" name="telefone" value="<?= htmlspecialchars($usuario->telefone) ?>" required>
 
                         <button id="button-cad-prod" type="submit" name="atualizar">Atualizar</button>
                     </form>
-                    <a href="listar-usuario.php">Voltar</a>
                 </div>
             </div>
         </div>

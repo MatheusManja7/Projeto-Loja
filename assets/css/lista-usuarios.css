@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: #cdd3e0;
+    background-color: #c4e2f0;
 }
 
 
@@ -119,8 +119,8 @@ html,
 
 
 .box-LisUs {
-    width: 90%;
-    height: 750px;
+    width: 80%;
+    height: 700px;
     background-color: #ffffff;
     z-index: 2;
     border-radius: 10px;
@@ -141,7 +141,7 @@ html,
     margin-left: 40%;
     font-size: 35px;
     position: relative;
-    top: 15%;
+    top: 5%;
     color: #4291be;
     font-weight: 600;
 }
@@ -167,6 +167,8 @@ html,
     max-height: 500px;
     table-layout: fixed;
     border-collapse: collapse;
+    position: relative;
+    bottom: 30%;
 }
 
 .table-lisUs td a {

@@ -9,7 +9,7 @@
 }
 
 body{
-    background-color: #cdd3e0;
+    background-color: #c4e2f0;
 }
 
 html,
@@ -116,8 +116,8 @@ html,
 }
 
 .box-Lisprod-mat {
-    width: 90%;
-    height: 750px;
+    width: 80%;
+    height: 700px;
     background-color: white;
     z-index: 2;
     border-radius: 10px;
@@ -138,7 +138,7 @@ html,
     margin-left: 40%;
     font-size: 35px;
     position: relative;
-    top: 15%;
+    top: 5%;
     color: #155384;
 }
 
@@ -162,6 +162,8 @@ html,
     max-height: 500px;
     table-layout: fixed;
     border-collapse: collapse;
+    position: relative;
+    bottom: 30%;
 }
 
 .button-del{

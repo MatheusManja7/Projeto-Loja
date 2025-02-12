@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #c4e2f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.area-principla-home{
+    width: 85%;
+    height: 85vh;
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    top: 6vh;
+    background-image: url(../imgs/b.avif);
+    border-radius: 10px;
+}
+
+.area-img-home{
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 30% 30% 0%;
+    background: linear-gradient(45deg,#98d1ec,#6cb2d7, #498aac, #1e6791, #155384);
+    background-size: 300% 300%;
+    animation: gradientAnimation 5s ease infinite; 
+    border-radius: 10px 30% 30% 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.box_principal{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+ }
+ 
+ .box_principal i{
+     position: absolute;
+     inset: 0;
+     border: 2px solid white;
+     transition: 0.5s;
+ }
+ 
+ .box_principal i:nth-child(1){
+     border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+     animation: animate 6s linear infinite;
+ }
+ 
+ .box_principal i:nth-child(2){
+     border-radius: 41% 44% 56% 59% / 38% 62% 63% 37%;
+     animation: animate 4s linear infinite;
+ }
+ 
+ .box_principal i:nth-child(3){
+     border-radius: 41% 44% 56% 59% / 38% 62% 63% 37%;
+     animation: animate2 10s linear infinite;
+ }
+ 
+ .box_principal:hover i{
+     border: 6px solid white;
+     filter: drop-shadow(0 0 20px #6cb2d7);
+ }
+ 
+ @keyframes animate{
+     0%{
+         transform: rotate(0deg);
+     }
+     100%{
+         transform: rotate(360deg);
+     }
+ }
+ 
+ @keyframes animate2{
+     0%{
+         transform: rotate(360deg);
+     }
+     100%{
+         transform: rotate(8deg);
+     }
+ }
+ 
+ .box_principal .area-funcionalidades_principal{
+     width: 100%;
+     height: 100%;
+     background-color: rgba(0, 255, 255, 0);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     gap: 20px;
+ }
+ 
+ .area-funcionalidades_principal .area-h1{
+     width: 60%;
+     height: 40px;
+     background-color: rgba(255, 255, 255, 0);
+     border-radius: 10px;
+     margin-bottom: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+ }
+
+.area-img-home h1{
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+}
+
+.area-img-home p{
+    color: white;
+    font-size: 18px;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+}
+
+.box-buttons-home{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.area-buttons-home{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(85, 85, 85, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-buttons{
+    width: 70%;
+    height: 70%;
+    background-color: rgba(0, 255, 255, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.area-button{
+    width: 95%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+    margin-top: 20px;
+    box-shadow: 5px 2px 5px rgb(107, 107, 107);
+}
+
+.area-button:hover{
+    transform: scale(1.1);
+    border: 2px solid #4291be;
+}
+
+.area-icon{
+    width: 15%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.area-icon img{
+    width: 70%;
+    height: 80%;
+}
+
+
+.area2-button{
+    width: 85%;
+    height: 100%;
+    background-color: rgba(137, 43, 226, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.area2-button button{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+    .area-principla-home{
+        flex-direction: column;
+        width: 100%;
+        height: 98vh;
+        top: 0;
+    }
+    .box_principal{
+        width: 50%;
+        height: 90%;
+    }
+
+    .area-h1 h1{
+        font-size: 18px;
+        top: 10px;
+    }
+    
+    .area-h1 p{
+        display: none;
+    }
+
+    .area-img-home{
+        width: 100%;
+        height: 30%;
+        border-radius: 0% 0% 30% 30%;
+    }
+    .box-buttons-home{
+        width: 100%;
+        height: 70%;
+    }
+
+    .div-buttons{
+        width: 100%;
+        height: 100%;
+        background-color: #15548400;
+        position: relative;
+        bottom: 7%;
+    }
+
+    .area-button{
+        width: 90%;
+        height: 60px;
+    }
+}
